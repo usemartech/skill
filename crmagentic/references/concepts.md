@@ -6,7 +6,7 @@ You can work in crmagentic from your own AI client as well as in the app. Your A
 
 ## Objects
 
-The tools read and write these objects: company, contact, deal, design_revision, design_work, email_template, field, form, media, note, page, pipeline, task, user, workflow. Names are not ids: search first, then pass the id a result gave you.
+The tools read and write these objects: blog_post, calendar_entry, chatbot, company, contact, deal, design_revision, design_work, email_campaign, email_template, email_template_folder, field, field_group, form, funnel, job_schedule, list, media, media_folder, note, page, persona, pipeline, pipeline_stage, product, score_rule, source, task, tracked_content, tracking_site, user, view, webhook, workflow, workflow_snippet. Names are not ids: search first, then pass the id a result gave you.
 
 ## Keys and roles
 

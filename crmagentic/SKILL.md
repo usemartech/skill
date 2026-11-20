@@ -1,6 +1,6 @@
 ---
 name: crmagentic
-description: "How to work in a crmagentic CRM workspace through its MCP server (the crm_* tools): build a form, build a landing page, draft an email, find and move contacts and deals, build a workflow, undo a mistake, and where each screen and setting is in the app. Use it when the person asks for one of these jobs, or asks where something is."
+description: "How to work in a crmagentic CRM workspace through its MCP server (the crm_* tools): build a form, build a landing page, draft an email, find and move contacts and deals, build a list, build a workflow, undo a mistake, and where each screen and setting is in the app. Use it when the person asks for one of these jobs, or asks where something is."
 metadata:
   version: "0.1.0"
 ---
@@ -19,10 +19,11 @@ Read only the references that match the request; one request can match more than
 | The person says | Read |
 | --- | --- |
 | form, lead form, signup form, registration form, survey, questions | references/tasks/build-a-form.md |
-| landing page, page, website page, signup page, event page | references/tasks/build-a-landing-page.md |
-| email, newsletter, email template, mailer, announcement | references/tasks/draft-an-email.md |
-| find a contact, lead, company, deal, move a deal, stage, owner, task, note | references/tasks/find-and-move-records.md |
-| workflow, automation, automate, drip, nurture, sequence, follow-up, welcome series, when someone signs up, trigger, email sequence, onboarding emails, after a form is sent, after someone registers | references/tasks/build-a-workflow.md |
+| landing page, page, website page, signup page, event page, funnel, blog, blog post, chatbot, media folder | references/tasks/build-a-landing-page.md |
+| email, newsletter, email template, mailer, announcement, campaign, draft campaign, a/b test, subject test, template folder, content calendar, social post, source, utm | references/tasks/draft-an-email.md |
+| find a contact, lead, company, deal, move a deal, stage, owner, task, note, product, service, catalog, persona | references/tasks/find-and-move-records.md |
+| list, segment, static list, dynamic list, audience, add to a list, remove from a list, who gets the campaign, lead score, scoring rule, website tracking, dynamic content | references/tasks/build-a-list.md |
+| workflow, automation, automate, drip, nurture, sequence, follow-up, welcome series, when someone signs up, trigger, saved view, list to watch, custom field, date field, rename a tag, snippet, email sequence, onboarding emails, after a form is sent, after someone registers | references/tasks/build-a-workflow.md |
 | undo, revert, put it back, restore, trash, delete, last change | references/tasks/undo-a-mistake.md |
 | where is, which screen, which setting, how do I get to | references/ui-map.md |
 | key, role, access, draft, published, workspace | references/concepts.md |

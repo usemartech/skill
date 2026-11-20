@@ -11,8 +11,8 @@ These hold for every task, whatever the person asks.
    - Custom fields, company look-ups and facts about a contact fill only what is empty, or wait for a rep to decide.
    - Saving a design never changes what visitors see.
 5. Know what it has no tools for.
-   - Your AI client cannot send an email campaign, build a list or a chatbot, or change your settings.
-   - It can build and change a workflow as a draft, but it cannot set a workflow live, pause it, or start a run.
+   - Your AI client cannot schedule, send or cancel an email campaign, put a chatbot live or pause it, change the **Cold**, **Warm** and **Hot** ranges of the lead score, make a new key for a tracked website, turn on a webhook or a background job, or change your settings.
+   - It can build a list in **Lists & segments** and choose who is on it (see Build a list with your AI client), save a view for a workflow to watch (see Save a view with your AI client), set up the custom fields, tags and snippets that a workflow uses (see Set up fields, tags and snippets with your AI client), and build and change a workflow as a draft, but it cannot set a workflow live, pause it, or start a run.
 6. Know where it never looks.
    - It never searches for a photo of a person by name, and it never reads LinkedIn itself.
    - It reads only public web pages that you or it name, and the outside services your CRM allows.

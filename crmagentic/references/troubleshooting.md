@@ -18,10 +18,11 @@ What a refusal means, and what to do next. Tell the person what happened in plai
 - **The preview link does not open.** It is more than one hour old. Ask for a new one.
 
 ## Draft an email
-- **The render lists warnings.** The warnings say what to fix in the design. Ask your AI client to fix it and to render the template again.
-- **The test is refused.** Outgoing mail is not set up on your CRM, or the address is not valid. Check the address, or ask your admin about outgoing mail.
-- **Your AI client says the design changed since it read it.** Someone saved the template in the meantime. Ask your AI client to read it again and to change only the blocks it needs, with `crm_email_template_patch`.
-- **Your AI client cannot find a template.** The template is archived. Ask your AI client to include archived templates, and to restore the one you want.
+- **The render lists warnings.** They say what to fix. Ask your AI client to fix them and to render it again.
+- **The test is refused.** Outgoing mail is not set up, or the address is not valid. Check the address, or ask your admin about outgoing mail.
+- **Your AI client says the design changed since it read it.** Someone saved the template in the meantime. Ask your AI client to read it again and to patch only the blocks it needs.
+- **Your AI client cannot find a template.** The template is archived. Ask your AI client to include archived templates and to restore it.
+- **A campaign is refused.** Only a draft changes or goes to the trash. Do the rest in **Email campaigns**.
 
 ## Find and move contacts and deals
 - **Your AI client says the email address is already used.** Another contact has it, maybe one in the trash. Ask your AI client to find that contact, or to restore it, instead of adding a new one.
@@ -32,11 +33,20 @@ What a refusal means, and what to do next. Tell the person what happened in plai
 - **Your AI client says that the record changed after its call.** A person, an import or another key changed a field after your AI client did. The undo does not overwrite that change.
 - **Your AI client cannot find a record that you can see in the app.** The record is in the trash, or your key's role does not reach that kind of record. Ask it to include records in the trash, or ask your admin about the agent's role.
 
+## Build a list
+- **A campaign or a workflow uses the list.** Cancel or pause it first.
+
 ## Build a workflow
-- **Your AI client says that the workflow is not ready.** A step still needs something, such as an email. Ask your AI client which step, or open the workflow and fix the step in the builder.
+- **Your AI client says that the workflow is not ready.** A step still needs something, such as an email or the list that the trigger watches. Ask your AI client which step, or open the workflow and fix the step in the builder.
 - **Your AI client says that the workflow is live.** Your AI client cannot change or trash a live workflow. Pause it in **Workflows** first.
 - **A version is not in the list.** The CRM keeps every version for 90 days, then the last 20.
 - **A run stopped after a change.** A run that waited at a step that a change removed ends as failed when it resumes. The run log says that the step was removed.
 - **Your AI client says that a step points at something archived.** The email template, form, tag, field or list of that step is in the trash. Ask your AI client to choose one that is live.
 - **Your AI client says that it may not build workflows.** The key belongs to a member, or the key is **read only**. Ask an admin for a **read + write** key.
 - **The Webinar registration template left a tag behind.** The template makes the tag *Attended*. The tag stays when the workflow goes to the trash.
+- **Your AI client says that a live workflow watches the view.** Your AI client cannot put the view in the trash or change its filters while a live workflow watches it. Pause the workflow in **Workflows** first.
+- **Your AI client says that you already have a view with this name.** Choose another name, or ask your AI client to change the view that you have.
+- **Your AI client says that only the owner can change the view.** Someone else shared the view. Ask your AI client to save a copy of it as your own view.
+- **Your AI client says that it may not read contacts.** Your role has no access to contacts. Ask an admin for access, or save a view of companies or deals.
+- **A live workflow uses it.** Pause the workflow in **Workflows** first.
+- **The group still holds a field.** Move each field out of the group first.
