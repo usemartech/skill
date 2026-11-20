@@ -15,8 +15,8 @@ You ask your AI client to find contacts, companies and deals, read what happened
 1. Ask for the records you want. Tools: `crm_contact_list`, `crm_company_list`, `crm_deal_list`, `search_crm`.
 2. Ask what happened with a record. Tools: `read_contact_history`, `read_company_history`, `read_deal_history`, `crm_contact_get`, `crm_company_get`, `crm_deal_get`.
 3. Ask your AI client to move a deal. Tools: `crm_pipeline_list`, `crm_deal_set_stage`.
-4. Ask for a task. Tools: `crm_task_create`, `crm_user_list`, `crm_task_complete`, `crm_task_reopen`, `crm_task_update`, `crm_task_archive`, `crm_task_restore`.
-5. Ask for other changes in the same way: Tools: `crm_contact_create`, `crm_company_create`, `crm_contact_update`, `crm_company_update`, `crm_deal_create`, `crm_deal_update`, `crm_note_create`, `crm_note_list`, `crm_note_get`, `crm_note_update`, `crm_note_archive`, `crm_note_restore`, `crm_field_list`, `crm_field_values`, `crm_field_set`, `crm_contact_archive`, `crm_company_archive`, `crm_deal_archive`, `crm_task_archive`, `crm_contact_restore`, `crm_company_restore`, `crm_deal_restore`, `crm_task_restore`, `crm_contact_restore_values`, `crm_company_restore_values`, `crm_deal_restore_values`, `crm_task_restore_values`, `crm_note_restore_values`.
+4. Ask for a task. Tools: `crm_task_create`, `crm_user_list`, `crm_task_list`, `crm_task_get`, `crm_task_complete`, `crm_task_reopen`, `crm_task_update`, `crm_task_archive`, `crm_task_restore`.
+5. Ask for other changes in the same way: Tools: `crm_contact_create`, `crm_company_create`, `crm_contact_update`, `crm_company_update`, `crm_deal_create`, `crm_deal_update`, `crm_note_create`, `crm_note_list`, `crm_note_get`, `crm_note_update`, `crm_note_archive`, `crm_note_restore`, `crm_contact_tag_list`, `crm_contact_tag_add`, `crm_contact_tag_remove`, `crm_field_list`, `crm_field_values`, `crm_field_set`, `crm_contact_archive`, `crm_company_archive`, `crm_deal_archive`, `crm_task_archive`, `crm_contact_restore`, `crm_company_restore`, `crm_deal_restore`, `crm_task_restore`, `crm_contact_restore_values`, `crm_company_restore_values`, `crm_deal_restore_values`, `crm_task_restore_values`, `crm_note_restore_values`.
    - **Contacts and companies.** `crm_contact_create` and `crm_company_create` add a record, and `crm_contact_update` and `crm_company_update` change only the fields you name.
    - A contact needs a first name, a last name or an email address, and an email address belongs to one contact only.
 6. Ask for a product or a service. Tools: `crm_product_create`, `crm_product_list`, `crm_product_get`.
@@ -62,4 +62,4 @@ Example request: *Add a service called Onboarding at 1,500 MYR, then show me the
 4. To see the contacts of a persona, select the number in its **Leads** column.
 5. To give a contact a persona, open the contact.
 
-If a tool refuses, read references/troubleshooting.md.
+If a tool refuses, read references/troubleshooting/find-and-move-records.md.

@@ -37,7 +37,7 @@ You ask your AI client to build a workflow as a draft, change it, undo a change,
 16. Put fields in groups. Tools: `crm_field_group_list`, `crm_field_group_create`, `crm_field_group_update`, `crm_field_group_remove`.
    - `crm_field_group_remove` removes a group only when no field is in it.
 17. Rename a tag. Tools: `crm_contact_tag_rename`.
-18. Ask for a snippet. Tools: `crm_workflow_snippet_create`, `crm_workflow_snippet_list`, `crm_workflow_snippet_update`, `crm_workflow_snippet_restore_values`.
+18. Ask for a snippet. Tools: `crm_workflow_snippet_create`, `crm_workflow_snippet_list`, `crm_workflow_snippet_get`, `crm_workflow_snippet_update`, `crm_workflow_snippet_restore_values`.
 19. Ask your AI client to remove what you do not need. Tools: `crm_field_archive`, `crm_contact_tag_archive`, `crm_workflow_snippet_archive`, `crm_field_restore`, `crm_contact_tag_restore`, `crm_workflow_snippet_restore`.
 
 Worked example (build-a-welcome-workflow): `crm_workflow_create_from_template` → `crm_workflow_check` → `crm_workflow_update` → `crm_workflow_list_revisions` → `crm_workflow_restore_revision`.
@@ -54,7 +54,7 @@ Example request: *Add a date field called Event date to contacts, then build the
 
 ### Follow up after someone registers — **Marketing & automation → Workflows** (/settings/workflows)
 
-If a tool refuses, read references/troubleshooting.md.
+If a tool refuses, read references/troubleshooting/build-a-workflow.md.
 
 ## Advice
 

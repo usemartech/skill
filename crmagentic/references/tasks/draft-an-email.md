@@ -33,7 +33,7 @@ You ask your AI client to draft or change an email template, see it the way a re
 13. Ask your AI client to remove a draft that you do not need. Tools: `crm_email_campaign_archive`, `crm_email_campaign_restore`.
 14. Ask for a source. Tools: `crm_source_create`, `crm_source_list`, `crm_source_get`.
 15. Ask for a change. Tools: `crm_source_update`, `crm_source_restore_values`.
-16. Ask for a calendar entry. Tools: `crm_calendar_entry_create`.
+16. Ask for a calendar entry. Tools: `crm_calendar_entry_create`, `crm_calendar_entry_list`, `crm_calendar_entry_get`.
 17. Move or change an entry. Tools: `crm_calendar_entry_update`, `crm_calendar_entry_restore_values`.
 18. Ask your AI client to remove what you do not need. Tools: `crm_source_archive`, `crm_calendar_entry_archive`, `crm_source_restore`, `crm_calendar_entry_restore`.
 
@@ -60,4 +60,4 @@ Example request: *Make a source Spring webinar for utm_campaign spring-webinar f
 4. Check **Set up the campaign**.
 5. Select **Send campaign**.
 
-If a tool refuses, read references/troubleshooting.md.
+If a tool refuses, read references/troubleshooting/draft-an-email.md.

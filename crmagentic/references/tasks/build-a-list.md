@@ -26,8 +26,8 @@ You ask your AI client to make a list in **Lists & segments**, add people to it 
 6. Ask your AI client to remove a list that you do not need. Tools: `crm_list_archive`, `crm_list_restore`.
    - Your AI client cannot put a list in the trash while a scheduled campaign sends to it, or while a live workflow watches it or reads it.
 7. Ask for a lead scoring rule. Tools: `crm_score_rule_create`, `crm_score_rule_update`, `crm_score_rule_list`, `crm_score_rule_get`.
-8. Ask for a website to track. Tools: `crm_tracking_site_create`, `crm_tracking_site_update`.
-9. Ask for a dynamic content block. Tools: `crm_tracked_content_create`.
+8. Ask for a website to track. Tools: `crm_tracking_site_create`, `crm_tracking_site_update`, `crm_tracking_site_list`, `crm_tracking_site_get`.
+9. Ask for a dynamic content block. Tools: `crm_tracked_content_create`, `crm_tracked_content_update`, `crm_tracked_content_list`, `crm_tracked_content_get`.
 10. Undo a change. Tools: `crm_score_rule_restore_values`, `crm_tracking_site_restore_values`, `crm_tracked_content_restore_values`.
 11. Ask your AI client to remove what you do not need. Tools: `crm_score_rule_archive`, `crm_tracking_site_archive`, `crm_tracked_content_archive`, `crm_score_rule_restore`, `crm_tracking_site_restore`, `crm_tracked_content_restore`.
 
@@ -69,4 +69,4 @@ Example request: *Add an engagement rule that gives 10 points for each chatbot c
 5. Select **Save**.
 6. To use the block, look under **Use it** on the right.
 
-If a tool refuses, read references/troubleshooting.md.
+If a tool refuses, read references/troubleshooting/build-a-list.md.

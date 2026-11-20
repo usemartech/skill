@@ -37,4 +37,4 @@ Example request: *Build a registration form for our open day with first name, em
 6. Select the **Share** tab.
 7. Test the form.
 
-If a tool refuses, read references/troubleshooting.md.
+If a tool refuses, read references/troubleshooting/build-a-form.md.

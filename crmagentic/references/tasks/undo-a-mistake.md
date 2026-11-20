@@ -6,38 +6,22 @@ Every change made through MCP has a way back. Find the job below, and use the to
 
 ## AI does through MCP
 
-- Build a form with your AI client: Ask your AI client to put the form live. Tools: `crm_form_unpublish`.
-- Build a form with your AI client: Ask your AI client to remove a draft that you do not need, such as a test form. Tools: `crm_form_restore`, `crm_form_unpublish`.
-- Build a form with your AI client: Ask your AI client to undo a change to the questions or the texts. Tools: `crm_form_list_revisions`, `crm_form_restore_revision`.
-- Build a landing page with your AI client: To use your own images, upload them to the Media library first. Tools: `crm_media_restore`, `crm_media_restore_values`.
-- Build a landing page with your AI client: Ask your AI client to publish. Tools: `crm_page_unpublish`.
-- Build a landing page with your AI client: To go back to an earlier version, ask your AI client. Tools: `crm_design_revision_restore`.
-- Build a list with your AI client: Undo a change. Tools: `crm_list_restore_values`.
-- Build a list with your AI client: Ask your AI client to remove a list that you do not need. Tools: `crm_list_restore`.
-- Build a workflow with your AI client: Undo a change. Tools: `crm_workflow_list_revisions`, `crm_workflow_restore_revision`.
-- Build a workflow with your AI client: Ask your AI client to remove a draft that you do not need. Tools: `crm_workflow_restore`.
-- Draft a campaign with your AI client: Undo a change. Tools: `crm_email_campaign_restore_values`.
-- Draft a campaign with your AI client: Ask your AI client to remove a draft that you do not need. Tools: `crm_email_campaign_restore`.
-- Find and update records: Ask for a task. Tools: `crm_task_restore`.
-- Find and update records: Ask for other changes in the same way: Tools: `crm_note_restore`, `crm_contact_restore`, `crm_company_restore`, `crm_deal_restore`, `crm_task_restore`, `crm_contact_restore_values`, `crm_company_restore_values`, `crm_deal_restore_values`, `crm_task_restore_values`, `crm_note_restore_values`.
-- Sources and the content calendar with your AI client: Ask for a change. Tools: `crm_source_restore_values`.
-- Sources and the content calendar with your AI client: Move or change an entry. Tools: `crm_calendar_entry_restore_values`.
-- Sources and the content calendar with your AI client: Ask your AI client to remove what you do not need. Tools: `crm_source_restore`, `crm_calendar_entry_restore`.
-- Products and personas with your AI client: Ask for a change. Tools: `crm_product_restore_values`.
-- Products and personas with your AI client: Change a persona. Tools: `crm_persona_restore_values`.
-- Products and personas with your AI client: Ask your AI client to remove what you do not need. Tools: `crm_product_restore`, `crm_persona_restore`.
-- Funnels, blog posts and chatbots with your AI client: Publish the post only when you are ready. Tools: `crm_blog_post_unpublish`.
-- Funnels, blog posts and chatbots with your AI client: Undo a change. Tools: `crm_funnel_restore_values`, `crm_blog_post_restore_values`, `crm_chatbot_restore_values`.
-- Funnels, blog posts and chatbots with your AI client: Ask your AI client to remove what you do not need. Tools: `crm_funnel_restore`, `crm_blog_post_restore`, `crm_chatbot_restore`.
-- Save a view with your AI client: Undo a change. Tools: `crm_view_restore_values`.
-- Save a view with your AI client: Ask your AI client to remove a view that you do not need. Tools: `crm_view_restore`.
-- Lead scoring, website tracking and dynamic content with your AI client: Undo a change. Tools: `crm_score_rule_restore_values`, `crm_tracking_site_restore_values`, `crm_tracked_content_restore_values`.
-- Lead scoring, website tracking and dynamic content with your AI client: Ask your AI client to remove what you do not need. Tools: `crm_score_rule_restore`, `crm_tracking_site_restore`, `crm_tracked_content_restore`.
-- Set up fields, tags and snippets with your AI client: Ask for a change. Tools: `crm_field_restore_values`.
-- Set up fields, tags and snippets with your AI client: Ask for a snippet. Tools: `crm_workflow_snippet_restore_values`.
-- Set up fields, tags and snippets with your AI client: Ask your AI client to remove what you do not need. Tools: `crm_field_restore`, `crm_contact_tag_restore`, `crm_workflow_snippet_restore`.
-- Write an email with your AI client: Ask your AI client to tidy up. Tools: `crm_email_template_restore`.
-- Write an email with your AI client: Ask your AI client to undo a change. Tools: `crm_email_template_list_revisions`, `crm_email_template_restore_revision`.
+- Build a form with your AI client: `crm_form_unpublish`, `crm_form_restore`, `crm_form_list_revisions`, `crm_form_restore_revision`.
+- Build a landing page with your AI client: `crm_media_restore`, `crm_media_restore_values`, `crm_page_unpublish`, `crm_design_revision_restore`, `crm_page_list_revisions`, `crm_page_restore_revision`, `crm_page_restore`.
+- Build a list with your AI client: `crm_list_restore_values`, `crm_list_restore`.
+- Build a workflow with your AI client: `crm_workflow_list_revisions`, `crm_workflow_restore_revision`, `crm_workflow_restore`.
+- Draft a campaign with your AI client: `crm_email_campaign_restore_values`, `crm_email_campaign_restore`.
+- Find and update records: `crm_task_restore`, `crm_note_restore`, `crm_contact_restore`, `crm_company_restore`, `crm_deal_restore`, `crm_contact_restore_values`, `crm_company_restore_values`, `crm_deal_restore_values`, `crm_task_restore_values`, `crm_note_restore_values`.
+- Sources and the content calendar with your AI client: `crm_source_restore_values`, `crm_calendar_entry_restore_values`, `crm_source_restore`, `crm_calendar_entry_restore`.
+- Products and personas with your AI client: `crm_product_restore_values`, `crm_persona_restore_values`, `crm_product_restore`, `crm_persona_restore`.
+- Research a contact or company: `crm_recheck_cancel`, `crm_company_restore_values`, `crm_contact_restore_values`, `crm_photo_undo`.
+- Funnels, blog posts and chatbots with your AI client: `crm_blog_post_unpublish`, `crm_funnel_restore_values`, `crm_blog_post_restore_values`, `crm_chatbot_restore_values`, `crm_funnel_restore`, `crm_blog_post_restore`, `crm_chatbot_restore`.
+- Save a view with your AI client: `crm_view_restore_values`, `crm_view_restore`.
+- Lead scoring, website tracking and dynamic content with your AI client: `crm_score_rule_restore_values`, `crm_tracking_site_restore_values`, `crm_tracked_content_restore_values`, `crm_score_rule_restore`, `crm_tracking_site_restore`, `crm_tracked_content_restore`.
+- Set up fields, tags and snippets with your AI client: `crm_field_restore_values`, `crm_workflow_snippet_restore_values`, `crm_field_restore`, `crm_contact_tag_restore`, `crm_workflow_snippet_restore`.
+- Pipelines and stages with your AI client: `crm_pipeline_restore_values`, `crm_pipeline_stage_restore_values`, `crm_pipeline_stage_restore`, `crm_pipeline_restore`.
+- Webhooks and background jobs with your AI client: `crm_webhook_restore_values`, `crm_job_schedule_restore_values`, `crm_webhook_restore`, `crm_job_schedule_restore`.
+- Write an email with your AI client: `crm_email_template_restore`, `crm_email_template_list_revisions`, `crm_email_template_restore_revision`.
 
 ## The person does in the app
 

@@ -21,13 +21,15 @@ You ask your AI client to draft a landing page from the blocks the designer has,
    - A file that is larger than 25 MB is refused.
    - A file that a published page or a sent email shows cannot go to the trash: take the page offline or take the image out of it first.
 5. Ask your AI client to publish. Tools: `crm_page_publish`, `crm_page_unpublish`.
-6. To go back to an earlier version, ask your AI client. Tools: `crm_design_revision_list`, `crm_design_revision_get`, `crm_design_revision_restore`.
-7. Ask for a funnel. Tools: `crm_funnel_create`, `crm_funnel_set_steps`, `crm_funnel_update`, `crm_funnel_list`, `crm_funnel_get`.
-8. Ask for a blog post. Tools: `crm_blog_post_create`, `crm_blog_post_update`, `crm_blog_post_get`.
-9. Publish the post only when you are ready. Tools: `crm_blog_post_publish`, `crm_blog_post_unpublish`.
-10. Ask for a chatbot. Tools: `crm_chatbot_create`, `crm_chatbot_update`.
-11. Undo a change. Tools: `crm_funnel_restore_values`, `crm_blog_post_restore_values`, `crm_chatbot_restore_values`.
-12. Ask your AI client to remove what you do not need. Tools: `crm_funnel_archive`, `crm_blog_post_archive`, `crm_chatbot_archive`, `crm_funnel_restore`, `crm_blog_post_restore`, `crm_chatbot_restore`.
+6. To go back to an earlier version, ask your AI client. Tools: `crm_design_revision_list`, `crm_design_revision_get`, `crm_design_revision_restore`, `crm_page_list_revisions`, `crm_page_restore_revision`.
+7. Ask your AI client to tidy up. Tools: `crm_page_list`, `crm_page_archive`, `crm_page_restore`, `crm_page_unpublish`.
+   - A published page cannot go to the trash: your AI client takes it offline with `crm_page_unpublish` first, so it asks you before.
+8. Ask for a funnel. Tools: `crm_funnel_create`, `crm_funnel_set_steps`, `crm_funnel_update`, `crm_funnel_list`, `crm_funnel_get`.
+9. Ask for a blog post. Tools: `crm_blog_post_create`, `crm_blog_post_update`, `crm_blog_post_list`, `crm_blog_post_get`.
+10. Publish the post only when you are ready. Tools: `crm_blog_post_publish`, `crm_blog_post_unpublish`.
+11. Ask for a chatbot. Tools: `crm_chatbot_create`, `crm_chatbot_update`, `crm_chatbot_list`, `crm_chatbot_get`.
+12. Undo a change. Tools: `crm_funnel_restore_values`, `crm_blog_post_restore_values`, `crm_chatbot_restore_values`.
+13. Ask your AI client to remove what you do not need. Tools: `crm_funnel_archive`, `crm_blog_post_archive`, `crm_chatbot_archive`, `crm_funnel_restore`, `crm_blog_post_restore`, `crm_chatbot_restore`.
 
 Worked example (page-block-catalog): `crm_page_block_catalog`.
 Worked example (draft-a-page): `crm_page_create` → `crm_page_patch` → `crm_page_preview` → `crm_page_update`.
@@ -71,4 +73,4 @@ Example request: *Make a funnel called Open day from the Open day page and the T
 5. Put the bot live.
 6. To see how the bot does, select **Report**: at the top of the builder, or beside the bot in the list.
 
-If a tool refuses, read references/troubleshooting.md.
+If a tool refuses, read references/troubleshooting/build-a-landing-page.md.
