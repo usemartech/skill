@@ -48,7 +48,7 @@ Each line is the path a person follows, the address, and the guide page about it
 - **Settings → AI configuration** (/settings/ai)
 - **Settings → Apps** (/settings/apps)
 - **Settings → Telemetry** (/settings/telemetry)
-- **Settings → Webhooks** (/settings/webhooks)
+- **Settings → Webhooks** (/settings/webhooks): Turn another system's events into contacts
 - **Settings → Logic functions** (/settings/logic-functions)
 - **Settings → MCP server** (/settings/mcp): Get a key
 - **Settings → Search index** (/settings/search)
