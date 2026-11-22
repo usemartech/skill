@@ -1,6 +1,6 @@
 ---
 name: crmagentic
-description: "How to work in a crmagentic CRM workspace through its MCP server (the crm_* tools): build a form, build a landing page, draft an email, find and move contacts and deals, build a list, build a workflow, set up a pipeline, set up webhooks and background jobs, research a contact or company, do design work handed to you, undo a mistake, and where each screen and setting is in the app. Use it when the person asks for one of these jobs, or asks where something is."
+description: "How to work in a crmagentic CRM workspace through its MCP server (the crm_* tools): build a form, build a landing page, draft an email, find and move contacts and deals, build a list, build a workflow, set up a pipeline, set up webhooks and background jobs, receive events from another system, research a contact or company, do design work handed to you, undo a mistake, and where each screen and setting is in the app. Use it when the person asks for one of these jobs, or asks where something is."
 metadata:
   version: "0.1.0"
 ---
@@ -25,7 +25,8 @@ Read only the references that match the request; one request can match more than
 | list, segment, static list, dynamic list, audience, add to a list, remove from a list, who gets the campaign, lead score, scoring rule, website tracking, dynamic content | references/tasks/build-a-list.md |
 | workflow, automation, automate, drip, nurture, sequence, follow-up, welcome series, when someone signs up, trigger, saved view, list to watch, custom field, date field, rename a tag, snippet, email sequence, onboarding emails, after a form is sent, after someone registers | references/tasks/build-a-workflow.md |
 | pipeline, new pipeline, sales process, stage, add a stage, rename a stage, won stage, lost stage, probability | references/tasks/set-up-a-pipeline.md |
-| webhook, tell another system, send events to another system, integration, background job, job schedule, run every, incoming webhook, receive events, events from another system | references/tasks/set-up-webhooks-and-jobs.md |
+| webhook, tell another system, send events to another system, integration, background job, job schedule, run every | references/tasks/set-up-webhooks-and-jobs.md |
+| incoming webhook, receive events, events from another system, connect a system, signing secret, signature, test event, sample event | references/tasks/receive-events-from-another-system.md |
 | research, look up, enrich, who is, linkedin, job change, background, photo, recheck, what we sell, who we are | references/tasks/research-a-contact-or-company.md |
 | work item, design work, my work, assigned to me, what should I work on, mark it done | references/tasks/do-design-work.md |
 | undo, revert, put it back, restore, trash, delete, last change | references/tasks/undo-a-mistake.md |
