@@ -1,0 +1,28 @@
+name: release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          git fetch --force origin "refs/tags/$TAG:refs/tags/$TAG"
+          [ "$(git cat-file -t "$TAG")" = tag ] || { echo "$TAG is not an annotated tag: its message is the title and the notes"; exit 1; }
+          git tag -l --format='%(contents:subject)' "$TAG" > "$RUNNER_TEMP/title.txt"
+          git tag -l --format='%(contents:body)' "$TAG" > "$RUNNER_TEMP/notes.md"
+          [ -s "$RUNNER_TEMP/title.txt" ] || { echo "$TAG has no title"; exit 1; }
+          [ -f crmagentic/SKILL.md ] || { echo "$TAG has no crmagentic/SKILL.md"; exit 1; }
+          zip -qr "$RUNNER_TEMP/crmagentic.zip" crmagentic
+          gh release create "$TAG" "$RUNNER_TEMP/crmagentic.zip" --verify-tag --latest --title "$(cat "$RUNNER_TEMP/title.txt")" --notes-file "$RUNNER_TEMP/notes.md"

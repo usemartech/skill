@@ -34,6 +34,8 @@ Example request: *Add a service called Onboarding at 1,500 MYR, then show me the
 
 ## The person does in the app
 
+- For the emails, meetings or calls of the whole workspace, or for a spreadsheet of contacts, your AI client sends you to the screen. In the sidebar, select **Engagement → Emails** (/emails), **Meetings**, **Calls** or **Import**.
+
 ### Find and view contacts — **Core CRM → Contacts** (/contacts)
 1. In the sidebar, select **Core CRM → Contacts** (/contacts).
 2. Type a name, an email address or a job title into **Search name, email, title…**.

@@ -3,6 +3,7 @@
 What a refusal means, and what to do next. Tell the person what happened in plain words.
 
 - **Your AI client says the email address is already used.** Another contact has it, maybe one in the trash. Ask your AI client to find that contact, or to restore it, instead of adding a new one.
+- **Your AI client finds the same person twice.** It cannot merge records. Merge them yourself at **Settings → Duplicates** (/settings/duplicates).
 - **Your AI client cannot move a deal to Lost.** A deal moved to a lost stage needs a reason. Tell your AI client why the deal was lost.
 - **Your AI client says a stage does not belong to the pipeline.** A deal moves only between the stages of its own pipeline. Ask it to read the pipeline first and to pick one of its stages.
 - **A custom field is refused.** Your admin has not let the AI fill that field, or a person already typed a value. Fill it in yourself in the app.

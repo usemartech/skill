@@ -2,8 +2,8 @@
 
 What a refusal means, and what to do next. Tell the person what happened in plain words.
 
-- **No sample came in.** **Listen** ran out after 15 minutes, nothing was sent, or the test was refused. Ask your AI client to read the last refusal, then use **Listen** again.
-- **Listen is refused.** The webhook has no secret yet. Choose **Set secret** first.
+- **No sample came in.** Nothing was sent, the webhook has no secret yet, or the test was refused. Ask your AI client to read the last refusal, then send the test again.
+- **Confirm is refused.** The webhook has no secret yet. Choose **Set secret** first.
 - **The refusal is signature_missing.** The signature header has another name, or the prefix is missing. Compare the setting with the header names of the refusal.
 - **The refusal is signature_mismatch.** The scheme, the prefix, the encoding or the secret is wrong. Check each one against the other system.
 - **The refusal is timestamp_outside_tolerance.** The timestamp header is wrong, or the clock of the other system is off by more than the tolerance (5 minutes by default).

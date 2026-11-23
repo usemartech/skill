@@ -11,5 +11,7 @@ What a refusal means, and what to do next. Tell the person what happened in plai
 - Set up a pipeline: references/troubleshooting/set-up-a-pipeline.md
 - Set up webhooks and background jobs: references/troubleshooting/set-up-webhooks-and-jobs.md
 - Receive events from another system: references/troubleshooting/receive-events-from-another-system.md
+- Brief the other system's developer: references/troubleshooting/brief-the-other-systems-developer.md
 - Research a contact or company: references/troubleshooting/research-a-contact-or-company.md
 - Do design work handed to you: references/troubleshooting/do-design-work.md
+- Check how things are going: references/troubleshooting/check-how-things-are-going.md

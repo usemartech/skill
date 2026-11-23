@@ -23,6 +23,6 @@ Example request: *Make a webhook called Website sync that tells https://hooks.ex
 
 ## The person does in the app
 
-- Turn it on yourself. Open **Settings → Webhooks** (/settings/webhooks) or **Settings → Background jobs** (/settings/jobs), and switch the webhook or the schedule on. Your AI client cannot turn them on or off, send a test event, or run a job now.
+- Turn it on yourself. Open **Settings → Webhooks** (/settings/webhooks) or **Settings → Background jobs** (/settings/jobs), and switch the webhook or the schedule on. Your AI client cannot turn them on or off, send a test event, or run a job now. For a webhook, Connect another system has the steps and the signature the other system checks.
 
 If a tool refuses, read references/troubleshooting/set-up-webhooks-and-jobs.md.
